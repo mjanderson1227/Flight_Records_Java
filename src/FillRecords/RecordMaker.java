@@ -6,7 +6,6 @@ public class RecordMaker {
     public int size = 0;
     public ArrayList<RouteRecord> directory = new ArrayList<RouteRecord>();
 
-
     private RouteRecord makeRecord ( String[] line ) {
         int month = Integer.parseInt ( line[0] );
         int passengers = Integer.parseInt ( line[5] );
